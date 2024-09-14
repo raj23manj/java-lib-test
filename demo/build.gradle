@@ -18,11 +18,8 @@ repositories {
 }
 
 dependencies {
-	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	// my lib
 	implementation files('/Users/rajeshmanjunath/Projects/POC/java-lib-test/string-utils-lib/lib/build/libs/my-spring-boot-library-1.0.0-SNAPSHOT.jar')
-	//runtimeOnly 'org.postgresql:postgresql'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
